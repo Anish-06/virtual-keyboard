@@ -1,0 +1,54 @@
+body {
+    margin: 25px;
+    text-align: center;
+    background: rgba(225, 150, 150, 0.471);
+  }
+  
+  h1 {
+    color: #26ABDE;
+  }
+  
+  .virtual-keyboard .row {
+    text-align: center;
+    margin: 0 0 15px;
+  }
+  .virtual-keyboard .row.spacebar input {
+    padding: 10px 150px;
+  }
+  .virtual-keyboard input[type=button] {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid #202C2B;
+    background: #13AB9E;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .virtual-keyboard input[type=button].shift-activated {
+    background: red;
+  }
+  .virtual-keyboard input[type=button].delete, .virtual-keyboard input[type=button].shift {
+    text-transform: none;
+  }
+  
+  .output {
+    margin: 15px;
+  }
+  .output input {
+    color: black;
+    background: none;
+    border: 0px;
+    line-height: 2.2em;
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+  }
+  .output input:focus {
+    outline: none;
+    border: 0px;
+  }
+  .output ::-webkit-input-placeholder {
+    color: black;
+    text-align: center;
+    font-size: 1em;
+  }
